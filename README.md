@@ -22,17 +22,16 @@
     § Amazon may have some too
 
 ## Data Annotation
-- Native features:
-  ○ Start rating distribution (mean, CI, variance)
-  ○ Number of reviews
-  ○ Avg. review length
-- Generated Features
-  ○ Proportion of review from bots
-    § Need a model to predict which reviews are bots
-    § Adjusted non-bot star rating, num of reviews, avg review length
-  ○ Occurrences of words from scam dictionary
-    § i.e. {'fake', 'scam', '…' }
-  ○ 
+### Native features:
+  - Start rating distribution (mean, CI, variance)
+  - Number of reviews
+  - Avg. review length
+### Generated Features
+- Proportion of review from bots
+- Need a model to predict which reviews are bots
+- Adjusted non-bot star rating, num of reviews, avg review length
+  - Occurrences of words from scam dictionary
+    - i.e. {'fake', 'scam', '…' }
 
 ## Techniques
 - Natural Language processing
